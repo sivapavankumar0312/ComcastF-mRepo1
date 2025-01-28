@@ -16,6 +16,9 @@ public HomePage(WebDriver driver) {
 @FindBy(xpath="//a[.='Organizations']")
 private WebElement orgLink;
 
+@FindBy(xpath="//a[.='Products']")
+private WebElement proLink;
+
 @FindBy(xpath="//a[.='Contacts']")
 private WebElement contactLink;
 
