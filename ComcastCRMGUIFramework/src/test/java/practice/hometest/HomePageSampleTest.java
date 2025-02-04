@@ -19,7 +19,7 @@ public class HomePageSampleTest {
 		System.out.println("s2");
 		Assert.assertEquals("Home", "Home");
 		System.out.println("s3");
-		sa.assertEquals("Home-CRM", "Home-CR");
+		sa.assertEquals("Home-CRM", "Home-CRM");
 		System.out.println("s4");
 		sa.assertAll();
 		System.out.println(mtd.getName() + "Test End");

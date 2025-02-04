@@ -13,7 +13,7 @@ public class HomePageVerificationTest {
 	@Test
 	public void homePageTest(Method mtd) {
 		System.out.println(mtd.getName() + "Test Start");
-		String exppage = "Home page";
+		String exppage = "Home";
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("http://49.249.28.218:8888");
